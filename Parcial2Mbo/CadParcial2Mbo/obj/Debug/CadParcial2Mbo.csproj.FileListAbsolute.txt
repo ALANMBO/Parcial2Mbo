@@ -1,0 +1,12 @@
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\CadParcial2Mbo.dll.config
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\CadParcial2Mbo.dll
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\CadParcial2Mbo.pdb
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\EntityFramework.dll
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\EntityFramework.xml
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\obj\Debug\CadParcial2Mbo.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\obj\Debug\CadParcial2Mbo.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\obj\Debug\CadParci.F5224B96.Up2Date
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\obj\Debug\CadParcial2Mbo.dll
+C:\Users\hp\OneDrive\Escritorio\PARCIAL-2-457\Parcial2Mbo\CadParcial2Mbo\obj\Debug\CadParcial2Mbo.pdb
