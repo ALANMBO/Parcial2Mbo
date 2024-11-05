@@ -39,6 +39,7 @@ namespace CpParcial2Ajavp
             dgvLista.Columns["episodios"].HeaderText = "Episodios";
             dgvLista.Columns["fechaEstreno"].HeaderText = "Fecha Estreno";
 
+
             btnEditar.Enabled = lista.Count > 0;
             btnEliminar.Enabled = lista.Count > 0;
             if (lista.Count > 0) dgvLista.Rows[0].Cells["titulo"].Selected = true;
@@ -64,6 +65,7 @@ namespace CpParcial2Ajavp
             txtDirector.Text = serie.director;
             nudEpisodios.Value = serie.episodios;
             dtpFechaEstreno.Value = serie.fechaEstreno;
+            combotipoGenero.SelectedItem = serie.genero;
 
         }
 
@@ -186,11 +188,6 @@ namespace CpParcial2Ajavp
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void lblEstado_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void dgvLista_CellContentClick(object sender, DataGridViewCellEventArgs e)

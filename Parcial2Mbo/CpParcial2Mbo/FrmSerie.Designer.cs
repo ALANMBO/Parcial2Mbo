@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.nudEstado = new System.Windows.Forms.NumericUpDown();
-            this.erpCategoria = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpFechaEstreno = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpEpisodios = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpDirector = new System.Windows.Forms.ErrorProvider(this.components);
@@ -61,8 +60,9 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.gbxDatos = new System.Windows.Forms.GroupBox();
             this.pnlAcciones = new System.Windows.Forms.Panel();
+            this.combotipoGenero = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudEstado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.erpCategoria)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaEstreno)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpEpisodios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpDirector)).BeginInit();
@@ -86,10 +86,6 @@
             this.nudEstado.Name = "nudEstado";
             this.nudEstado.Size = new System.Drawing.Size(120, 20);
             this.nudEstado.TabIndex = 18;
-            // 
-            // erpCategoria
-            // 
-            this.erpCategoria.ContainerControl = this;
             // 
             // erpFechaEstreno
             // 
@@ -341,6 +337,8 @@
             // 
             // gbxDatos
             // 
+            this.gbxDatos.Controls.Add(this.combotipoGenero);
+            this.gbxDatos.Controls.Add(this.label1);
             this.gbxDatos.Controls.Add(this.nudEstado);
             this.gbxDatos.Controls.Add(this.lblEstado);
             this.gbxDatos.Controls.Add(this.rtbSinopsis);
@@ -373,6 +371,23 @@
             this.pnlAcciones.Size = new System.Drawing.Size(820, 47);
             this.pnlAcciones.TabIndex = 19;
             // 
+            // combotipoGenero
+            // 
+            this.combotipoGenero.FormattingEnabled = true;
+            this.combotipoGenero.Location = new System.Drawing.Point(528, 117);
+            this.combotipoGenero.Name = "combotipoGenero";
+            this.combotipoGenero.Size = new System.Drawing.Size(121, 21);
+            this.combotipoGenero.TabIndex = 23;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(407, 117);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Tipo Genero:";
+            // 
             // FrmSerie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -388,7 +403,6 @@
             this.Name = "FrmSerie";
             this.Text = "FrmSerie";
             ((System.ComponentModel.ISupportInitialize)(this.nudEstado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.erpCategoria)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaEstreno)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpEpisodios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpDirector)).EndInit();
@@ -408,7 +422,6 @@
         #endregion
 
         private System.Windows.Forms.NumericUpDown nudEstado;
-        private System.Windows.Forms.ErrorProvider erpCategoria;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtParametro;
         private System.Windows.Forms.Label lblParametro;
@@ -439,5 +452,7 @@
         private System.Windows.Forms.ErrorProvider erpDirector;
         private System.Windows.Forms.ErrorProvider erpSinopsis;
         private System.Windows.Forms.ErrorProvider erpTitulo;
+        private System.Windows.Forms.ComboBox combotipoGenero;
+        private System.Windows.Forms.Label label1;
     }
 }

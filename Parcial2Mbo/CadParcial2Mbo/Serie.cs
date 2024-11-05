@@ -14,6 +14,8 @@ namespace CadParcial2Mbo
     
     public partial class Serie
     {
+        public object genero;
+
         public int id { get; set; }
         public string titulo { get; set; }
         public string sinopsis { get; set; }

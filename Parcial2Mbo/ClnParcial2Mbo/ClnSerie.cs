@@ -29,7 +29,8 @@ namespace CadParcial2Mbo
                 existente.director = serie.director;
                 existente.episodios = serie.episodios;
                 existente.fechaEstreno = serie.fechaEstreno;
-   
+                existente.genero = serie.genero;
+
                 return context.SaveChanges();
             }
         }
